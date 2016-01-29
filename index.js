@@ -27,7 +27,9 @@ function fixtures(req, res, next) {
         var url = req.url
             .replace(new RegExp('^\\w+tps?://.+?' + config.api), '')
             .replace(config.apiRe, '')
-            .replace(/\?.+/, '');
+            .replace(/\?.+/, '')
+            .replace(/\/+$/, '');
+
 
         var accept = [];
         if (req.headers && req.headers.accept) {
