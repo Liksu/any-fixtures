@@ -1,6 +1,6 @@
 {
-  "name": "gulp-fixtures",
-  "version": "1.0.1",
+  "name": "any-fixtures",
+  "version": "1.0.3",
   "description": "Middleware to serve data from files instead of API",
   "dependencies": {
     "async": "^1.4.2",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Liksu/gulp-fixtures.git"
+    "url": "git+https://github.com/Liksu/any-fixtures.git"
   },
   "keywords": [
     "fixtures"
@@ -20,7 +20,7 @@
   "author": "Liksu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Liksu/gulp-fixtures/issues"
+    "url": "https://github.com/Liksu/any-fixtures/issues"
   },
-  "homepage": "https://github.com/Liksu/gulp-fixtures#readme"
+  "homepage": "https://github.com/Liksu/any-fixtures#readme"
 }
